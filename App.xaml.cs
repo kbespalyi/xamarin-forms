@@ -8,7 +8,9 @@ namespace Forms
 		{
 			InitializeComponent();
 
-			MainPage = new FormsPage();
+			//MainPage = new FormsPage(); // With Xaml-desing
+			MainPage = new MainPage();
+
 		}
 
 		protected override void OnStart()
